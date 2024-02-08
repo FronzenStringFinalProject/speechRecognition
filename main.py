@@ -32,8 +32,8 @@ def recognize(file: Annotated[bytes, File()]):
         audio_normalized = float_audio/2**15
     result = model.transcribe(
         audio_normalized,
-        language="zh",
-        initial_prompt="以下是用普通话的句子回答数学题目答案，有可能不会做。"
+        language="Chinese",
+        initial_prompt="以下是用普通话的句子回答数学题目答案。"
     )
     print(result)
 
