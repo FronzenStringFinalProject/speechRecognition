@@ -45,10 +45,14 @@ def recognize(file: Annotated[bytes, File()]):
     else:
         ans_str = None
     unknow = False
+    confirm = False
     for w in ["不会", "不知道","好难"]:
         if w in text:
             unknow = True
-    return {"result": ans_str, "unknown": unknow}
+    for w in ["对","没错"]:
+        if w in text:
+            confirm = True
+    return {"result": ans_str, "unknown": unknow,"confirm": confirm}
 
 if __name__ == '__main__':
     uvicorn.run(app,port=5000)
