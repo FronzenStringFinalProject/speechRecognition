@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c01cce5f-2163-478c-bc0f-61349a21dfc2" name="Changes" comment="添加内存内语音识别">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="c01cce5f-2163-478c-bc0f-61349a21dfc2" name="Changes" comment="添加内存内语音识别" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +81,7 @@
       <workItem from="1707273550564" duration="4402000" />
       <workItem from="1707279261749" duration="4569000" />
       <workItem from="1707317835262" duration="2816000" />
-      <workItem from="1707378310282" duration="613000" />
+      <workItem from="1707378310282" duration="1415000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <option name="closed" value="true" />
@@ -110,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707355002091</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加内存内语音识别">
+      <option name="closed" value="true" />
+      <created>1707381259799</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707381259799</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
