@@ -1,6 +1,4 @@
 import re
-import tempfile
-
 import wave
 from io import BytesIO
 
@@ -29,7 +27,7 @@ def recognize(file: Annotated[bytes, File()]):
         audio_as_np_u16 = numpy.frombuffer(audio, dtype=numpy.int16)
         float_audio = audio_as_np_u16.astype(numpy.float32)
 
-        audio_normalized = float_audio/2**15
+        audio_normalized = float_audio / 2 ** 15
     result = model.transcribe(
         audio_normalized,
         language="Chinese",
@@ -46,13 +44,14 @@ def recognize(file: Annotated[bytes, File()]):
         ans_str = None
     unknow = False
     confirm = False
-    for w in ["不会", "不知道","好难"]:
+    for w in ["不会", "不知道", "好难", "不", "不需要"]:
         if w in text:
             unknow = True
-    for w in ["对","没错"]:
+    for w in ["对", "没错", "是", "需要", "嗯"]:
         if w in text:
             confirm = True
-    return {"result": ans_str, "unknown": unknow,"confirm": confirm}
+    return {"result": ans_str, "unknown": unknow, "confirm": confirm}
+
 
 if __name__ == '__main__':
-    uvicorn.run(app,port=5000)
+    uvicorn.run(app, port=5000)
