@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c01cce5f-2163-478c-bc0f-61349a21dfc2" name="Changes" comment="添加内存内语音识别">
+    <list default="true" id="c01cce5f-2163-478c-bc0f-61349a21dfc2" name="Changes" comment="更换为大模型">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -71,8 +71,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.122" />
-        <option value="bundled-python-sdk-307d694b6c95-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.122" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
       </set>
     </attachedChunks>
   </component>
@@ -103,7 +103,13 @@
       <workItem from="1711546022174" duration="2249000" />
       <workItem from="1712745557525" duration="1382000" />
       <workItem from="1712751527333" duration="1720000" />
-      <workItem from="1712997091471" duration="3810000" />
+      <workItem from="1712997091471" duration="5284000" />
+      <workItem from="1713175351320" duration="5611000" />
+      <workItem from="1713682037639" duration="705000" />
+      <workItem from="1713689634138" duration="598000" />
+      <workItem from="1713752591566" duration="1176000" />
+      <workItem from="1713771814765" duration="3271000" />
+      <workItem from="1714961431350" duration="8844000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <option name="closed" value="true" />
@@ -145,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709448087531</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="更换为大模型">
+      <option name="closed" value="true" />
+      <created>1713098960937</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713098960937</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +179,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
     <MESSAGE value="添加内存内语音识别" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加内存内语音识别" />
+    <MESSAGE value="更换为大模型" />
+    <option name="LAST_COMMIT_MESSAGE" value="更换为大模型" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -179,6 +194,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SpeechRecognition$main.coverage" NAME="main 覆盖结果" MODIFIED="1712997105871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SpeechRecognition$main.coverage" NAME="main 覆盖结果" MODIFIED="1714961464970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

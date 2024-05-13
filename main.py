@@ -53,7 +53,6 @@ def recognize(item: InputItem):
 
     text = result["text"]
     text = cn2an.transform(text)
-    ans_str = pattern.findall(text)
     text = cn2an.transform(text)
     print(text)
     ans_str = pattern.findall(text)
